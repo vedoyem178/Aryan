@@ -153,7 +153,7 @@ def handle_attack_command(message):
         if not user_data or user_data['plan'] == 0:
             bot.send_message(chat_id, "*🚫 Access Denied!*\n"  # Access Denied message
                                        "*You need to be approved to use this bot.*\n"  # Need approval message
-                                       "*Contact the owner for assistance: @TANISHULTRA54.*", parse_mode='Markdown')
+                                       "*Contact the owner for assistance: @CYBERWAVE80.*", parse_mode='Markdown')
             return
 
         # Check plan limits
@@ -316,7 +316,7 @@ def owner_command(message):
     response = (
         "*👤 **Owner Information:**\n\n"
         "For any inquiries, support, or collaboration opportunities, don't hesitate to reach out to the owner:\n\n"
-        "📩 **Telegram:** @TANISHULTRA54\n\n"
+        "📩 **Telegram:** @CYBERWAVE80\n\n"
         "💬 **We value your feedback!** Your thoughts and suggestions are crucial for improving our service and enhancing your experience.\n\n"
         "🌟 **Thank you for being a part of our community!** Your support means the world to us, and we’re always here to help!*\n"
     )
